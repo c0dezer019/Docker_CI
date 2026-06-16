@@ -1,6 +1,10 @@
 name: Build Docker Hardened Image
 description: 'Builds a secure Image using SBOM and supply chain attestations.'
 
+branding:
+  icon: lock
+  color: blue
+
 inputs:
   docker_image:
     description: 'Docker image name (e.g. user/repo)'
